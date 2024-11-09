@@ -52,22 +52,22 @@ public class BoardConsoleRenderer {
     private String selectUnicodeSpriteForPiece(Piece piece) {
         switch (piece.getClass().getSimpleName()) {
             case "Pawn":
-                return "P";
+                return "♙";
 
             case "Knight":
-                return  "K";
+                return  "♘";
 
             case "Bishop":
-                return  "B";
+                return  "♗";
 
             case "Rook":
-                return  "R";
+                return  "♖";
 
             case "Queen":
-                return  "Q";
+                return  "♕";
 
             case "King":
-                return  "I";
+                return  "♔";
         }
         return "";
     }
